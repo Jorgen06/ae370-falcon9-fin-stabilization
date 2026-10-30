@@ -4,7 +4,7 @@
 
 **Group:** Bharat Rajesh, Thomas Theodor, Jorgen Nelson, Carlos Avila
 
-This project models the rotational attitude recovery of a Falcon 9-inspired rocket equipped with four movable fins. We investigate how **fin deflection limits** and **actuator response time** affect recovery time and fin effort. The physical parameters and control model are simplified assumptions for a numerical-methods study, **not** a validated or flight-ready Falcon 9 model.
+This project models the rotational attitude recovery of a Falcon 9-inspired rocket equipped with four movable fins. We are investigating how **fin deflection limits** and **actuator response time** affect both recovery time and fin effort. The physical parameters and control model are simplified assumptions for a numerical-methods study, **not** a validated or flight-ready Falcon 9 model.
 
 The ten-state nonlinear initial value problem is advanced using a **self-written classical fourth-order Runge–Kutta (RK4)** integrator, with forward Euler used for comparison. **No external ODE integrator is used.**
 
